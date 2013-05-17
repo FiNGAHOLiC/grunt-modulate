@@ -34,7 +34,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 Type: `Boolean`
 Default value: `false`
 
-Convert to relative path, or not.
+Convert to **document-root relative path**, or not.
 
 #### template
 Type: `RegExp`
@@ -111,7 +111,7 @@ modulate: {
 
 e.g. test/assets/html/module/_src/_mod-foo.html
 
-If you want to convert to relative path, href attribute value must be **site-root relative path**.
+If you want to convert to **document-root relative path**, href attribute value must be **site-root relative path**.
 
 ```html
 <div class="mod-foo">
