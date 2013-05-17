@@ -12,7 +12,7 @@ module.exports = function(grunt){
 
 	var Modulate = require('./lib/modulate')(grunt);
 
-	grunt.registerMultiTask('modulate', 'Templating HTML module', function(){
+	grunt.registerMultiTask('modulate', 'Templating HTML module.', function(){
 
 		var options = this.options({
 			relativate: false,

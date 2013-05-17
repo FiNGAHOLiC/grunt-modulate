@@ -1,6 +1,6 @@
 {
 	"name": "grunt-modulate",
-	"description": "Templating HTML module",
+	"description": "Templating HTML module.",
 	"version": "0.1.0",
 	"homepage": "https://github.com/FiNGAHOLiC/grunt-modulate",
 	"author": {

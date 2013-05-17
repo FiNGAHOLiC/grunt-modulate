@@ -58,7 +58,7 @@ Regular expression list for validating url value not relative path.
 
 #### Sample directory tree
 
-```js
+```shell
 ├── Gruntfile.js
 ├── node_modules
 ├── package.json
