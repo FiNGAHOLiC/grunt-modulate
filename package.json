@@ -1,0 +1,41 @@
+{
+	"name": "grunt-modulate",
+	"description": "Templating HTML module",
+	"version": "0.1.0",
+	"homepage": "https://github.com/FiNGAHOLiC/grunt-modulate",
+	"author": {
+		"name": "FiNGAHOLiC",
+		"email": "pl4y4h4ter@gmail.com",
+		"url": "https://github.com/FiNGAHOLiC"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:FiNGAHOLiC/grunt-modulate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/FiNGAHOLiC/grunt-modulate/issues"
+	},
+	"licenses": [
+		{
+		"type": "MIT",
+		"url": "https://github.com/FiNGAHOLiC/grunt-modulate/blob/master/LICENSE-MIT"
+	}
+	],
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.1"
+	},
+	"keywords": [
+		"html",
+		"module",
+		"modulate",
+		"template",
+		"gruntplugin"
+	]
+}

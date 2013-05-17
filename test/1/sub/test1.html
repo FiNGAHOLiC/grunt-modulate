@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- #module "/assets/html/modules/_src/_mod-foo.html" -->
+		<div class="mod-foo">
+			<ul>
+				<li><a href="#">Null Link</a></li>
+				<li><a href="#foo">Hash Link</a></li>
+				<li><a href="http://google.com">Internal Link</a></li>
+				<li><a href="https://google.com">Internal Link</a></li>
+				<li><a href="mailto:hoge@gmail.com">Mail Link</a></li>
+				<li><a href="../test1.html">/1/test1.html"</a></li>
+				<li><a href="../test2.html">/1/test2.html"</a></li>
+				<li><a href="test1.html">/1/sub/test1.html</a></li>
+				<li><a href="test2.html">/1/sub/test2.html</a></li>
+				<li><a href="../../2/test1.html">/2/test1.html</a></li>
+				<li><a href="../../2/test2.html">/2/test2.html</a></li>
+				<li><a href="../../2/sub/test1.html">/2/sub/test1.html</a></li>
+				<li><a href="../../2/sub/test2.html">/2/sub/test2.html</a></li>
+			</ul>
+		</div>
+		<!-- /#module -->
+		<!-- #module "/assets/html/modules/_src/_mod-bar.html" -->
+		<div class="mod-bar">
+			<img src="http://www.placehold.it/200/b22222/ffffff/&text=external+image" width="200" height="200" alt="">
+		</div>
+		<!-- /#module -->
+		<!-- #module "/assets/html/modules/_src/_mod-baz.html" -->
+		<div class="mod-baz">
+			<img src="../../assets/img/img.gif" width="200" height="200" alt="">
+		</div>
+		<!-- /#module -->
+	</body>
+</html>
