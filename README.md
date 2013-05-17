@@ -46,13 +46,13 @@ Regular expression for validating template tags.
 Type: `RegExp`
 Default value: `/(href=|src=)("|')(.*?)("|')/g`
 
-Regular expression for validating url type.
+Regular expression for validating url type and url.
 
 #### exclude
 Type: `Array`
 Default value: `[/^#/, /^mailto:/, /^(\/|http|https|ftp):\/\//]`
 
-Regular expression list for validating url value not relative path.
+Regular expression list for validating null link (hash link), mail link, absolute path.
 
 ### Usage Examples
 
