@@ -56,7 +56,7 @@ Regular expression list for validating null link (hash link), mail link, absolut
 
 ### Usage Examples
 
-#### Sample directory tree
+#### Directory tree
 
 ```shell
 .
@@ -133,7 +133,7 @@ If you want to convert to **document-root relative path**, href attribute value 
 </div>
 ```
 
-#### target file before running task
+#### Target file (before running task)
 
 e.g. test/1/sub/test1.html
 
@@ -143,11 +143,7 @@ Module path must be **site-root relative path**.
 <!-- #module "/assets/html/modules/_src/_mod-foo.html" --><!-- /#module -->
 ```
 
-#### target file after running task
-
-e.g. test/1/sub/test1.html
-
-Module path must be **site-root relative path**.
+#### Target file (after running task)
 
 ```html
 <!-- #module "/assets/html/modules/_src/_mod-foo.html" -->
